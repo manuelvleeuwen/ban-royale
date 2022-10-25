@@ -1,0 +1,7 @@
+{
+    "$schema": "https://json.schemastore.org/nodemon.json",
+    "watch": ["src"],
+    "ext": ".ts",
+    "env": { "NODE_ENV": "development" },
+    "exec": "node --no-warnings --experimental-specifier-resolution=node --require dotenv/config --loader ts-node/esm"
+}
